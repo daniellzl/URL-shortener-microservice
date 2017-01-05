@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+  head
+    title URL Shortener Microservice
+  body
+    h1 URL Shortener Microservice
+    p This website allows user to pass in a URL as a parameter and receive a shortened URL in response. When user visits the shortened URL, it will redirect to the original link. If an invalid URL is passed that doesn't follow the http://www.example.com format, an error will occur.
+    h3 Example usage
+    p https://url-shortener-dlzl.herokuapp.com/https://wikipedia.org
+    p outputs
+    p {"original_url":"https://wikipedia.org","short_url":"https://url-shortener-dlzl.herokuapp.com/6308"}
+    p and
+    p https://url-shortener-dlzl.herokuapp.com/6308
+    p redirects to
+    p https://wikipedia.org
+    h3 Credit
+    p https://www.freecodecamp.com/challenges/url-shortener-microservice
