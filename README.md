@@ -4,7 +4,7 @@ Allows user to pass in a URL as a parameter and receive a shortened URL in respo
 
 [Live Application](https://url-shortener-dlzl.herokuapp.com)
 
-## Example Usage
+### Example Usage
 
 https://url-shortener-dlzl.herokuapp.com/https://wikipedia.org
 
